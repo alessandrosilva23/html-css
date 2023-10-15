@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+@font-face {
+    font-family:'idroid';
+    src: url('idroid.otf'),('opentype');
+}    
+
+:root{
+    --cor1: #c5ebd6;
+    --cor2: #89e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #063d1e; 
+
+    --font-padrao: Arial, Verdana, Helvetica, Sans-serif;
+    --font-destaque: font-family: 'Patrick Hand', cursive;
+    --font-personalizada: font-family: 'idroid', cursive;
+}
+
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: var(--cor1);
+    
+}
+
+p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+header {
+    background: linear-gradient(#2fa866,#1a5c37,#063d1e);
+    min-width: 150px;
+    text-align: center;
+    padding-top: 40px;
+
+}
+header > h1{
+    margin-bottom: 20px;
+    font-family: var(--font-destaque);
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.493);
+
+
+}
+header > p{
+    color: white;
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
+} 
+nav{
+    background-color: var(--cor6);
+    padding: 9px;
+    box-shadow: 1px 1px 7px  rgba(0, 0, 0, 0.123);
+
+    
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 1s;
+    
+}
+
+a:active{
+    color:var(--cor2);
+}
+a:hover{
+    color: var(--cor6);
+    background-color:var(--cor4);
+}
+
+main h1{
+    color: var(--cor6);
+    font-family: 'idroid', Helvetica, sans-serif
+}
+
+main h2{
+    font-size: 1.3em;
+    color: var(--cor5);
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    font-family: 'idroid', Helvetica, sans-serif;
+}
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.568);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+main strong{
+    color: var(--cor6);
+    font-weight: bold;
+
+}
+
+main a {
+    background-color: var(--cor1);
+    color: var(--cor6);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor2);
+}
+img{
+    width: 100%;
+}
+img.pequeno{
+    max-width: 350px;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+p#video >iframe{
+
+    display: block;
+    margin: auto;
+
+}
+p#video{
+    background-color: var(--cor6);
+
+}
+
+aside{
+    background-color: var(--cor1);
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+
+    
+
+
+}
+
+aside  ul{
+    list-style-position: inside;
+}
+
+
+
+footer{
+    color: white;
+    background-color: var(--cor6);
+    border-radius: 10px;
+
+}
+
+footer p{
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+p#um{
+    background-color: var(--cor1);
+    margin: 0px;
+}
+
+p::f
