@@ -54,6 +54,7 @@ header > h1{
 }
 header > p{
     color: white;
+    text-align: center;
     font-size: 1.2em;
     max-width: 500px;
     margin: auto;
@@ -182,5 +183,3 @@ p#um{
     background-color: var(--cor1);
     margin: 0px;
 }
-
-p::f
