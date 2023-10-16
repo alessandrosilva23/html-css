@@ -93,7 +93,7 @@ main h1{
     font-family: 'idroid', Helvetica, sans-serif
 }
 
-main h2{
+main > h2{
     font-size: 1.3em;
     color: var(--cor5);
     background-image: linear-gradient(to right, var(--cor1), transparent);
@@ -182,4 +182,13 @@ footer p{
 p#um{
     background-color: var(--cor1);
     margin: 0px;
+}
+main  h2#apr{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding-left: 5px;
+    font-size: 1.2em;
+    font-family: 'idroid', Helvetica, sans-serif;
+    background-color: var(--cor6);
+    color: white;
 }
