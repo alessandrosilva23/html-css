@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixos de Tela</title>
     <style>
         body{
-            background-color: black;
-            background-image: url(img/wallpaper002.jpg);
-            background-position: center top;
-            background-repeat: no-repeat;
+            height: 100vh;
+            
+
+            background: black url(img/wallpaper002.jpg ) center center no-repeat fixed;
+            background-size: cover;
+
         }
         
         main {
@@ -17,11 +19,12 @@
             text-indent: 10px;
             line-height: 25px;
             text-align: justify;
-            width: 400px;
+            max-width: 400px;
             border: 1px solid rgba(0, 0, 0, 0.568);
             border-radius: 15px;
             padding: 10px;
             margin: auto;
+
         }
 
         h1{
