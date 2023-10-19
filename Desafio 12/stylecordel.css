@@ -165,7 +165,8 @@ section:nth-of-type(7){
 
 
 main  p{
-
+    
+    font-weight: bold;
     font-family: var(--font3);
     width: 250px;
     height: 300px;
