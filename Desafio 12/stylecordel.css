@@ -57,7 +57,10 @@ section:nth-of-type(2){
     padding-bottom: 35px;
     padding-left: 35px;
     
-    background: black url(imagens/background001.jpg) left center no-repeat fixed;
+    min-width: 600pxpx;
+    max-width: 800px;
+
+    background: black url(imagens/background001.jpg) center right no-repeat fixed;
     background-size: cover;
 
 
